@@ -1,0 +1,42 @@
+# Ignore Python virtual environments
+labenv/
+.venv/
+venv/
+env/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore test and coverage output
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+test-results/
+
+# Ignore pip logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore build outputs
+dist/
+build/
+*.egg-info/
